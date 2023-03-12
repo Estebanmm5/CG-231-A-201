@@ -124,6 +124,7 @@ function init() {
     document.body.appendChild(renderer.domElement);
 
     //Girar la segunda piramide
+    EscaladoReal(piramide[1],[0,0,0], [1,-1,1]);
 
     // Agregar elementos al escenario
     scene.add(gridHelperXZ);
